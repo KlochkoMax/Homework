@@ -1,0 +1,43 @@
+.father {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 550px;
+    border: 2px solid #070909;
+    text-align: center;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+    flex-grow: 4;
+}
+
+.home {
+    background-color: #2269BB;
+    width: 48%;
+}
+
+.second {
+    background-color: #2269BB;
+    margin: 1%;
+    flex-grow: 1;
+}
+
+.third {
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+    flex-grow: 1;
+}
+
+.block {
+    word-break: break-all;
+    background-color: #2269BB;
+    width: 30%;
+}
+
+h3 {
+
+}
