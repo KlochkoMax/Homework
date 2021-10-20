@@ -9,42 +9,46 @@
     background-color: burlywood;
     text-align: center;
     flex-grow: 1;
+    margin: 1%;
 }
 
 .second {
     display: flex;
-    background-color: #5d0e27;
     flex-grow: 2;
+    margin: 0% 1% 1% 1%;
 }
 
 .bcde {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #7DCBE4;
     flex-grow: 3;
 }
 
 .f {
-    background-color: #16A2C5;
+    background-color: burlywood;
     flex-grow: 1;
     text-align: center;
+    margin-left: 1%;
 }
 
 .b {
-    background-color: aliceblue;
+    background-color: burlywood;
     text-align: center;
-    width: 90%;
+    width: 100%;
     flex-grow: 1;
+    margin-bottom: 1%;
 }
 
 .cde {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-grow: 1;
 }
 
 .blockcde {
-    background-color: #8f9b9b;
+    background-color: burlywood;
     width: 30%;
+    text-align: center;
 }
