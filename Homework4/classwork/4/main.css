@@ -1,0 +1,45 @@
+.father {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    border: 2px solid #070909;
+    text-align: center;
+}
+
+.first {
+    flex-grow: 1;
+    background-color: #7DCBE4;
+    width: 98%;
+    margin: 1%;
+}
+
+.second {
+    display: flex;
+    flex-grow: 2;
+    background-color: #7DCBE4;
+    width: 98%;
+    margin: 0% 1% 1% 1%;
+}
+
+.third {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 5%;
+    background-color: #8f9b9b;
+    margin-right: 1%;
+    flex-grow: 3;
+    padding-top: 5%;
+}
+
+.fourth {;
+    background-color: #8a8484;
+    flex-grow: 1;
+}
+
+.block {
+    background-color: burlywood;
+    height: 35%;
+    width: 25%;
+}
