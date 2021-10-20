@@ -1,0 +1,47 @@
+.father {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 450px;
+    height: 450px;
+}
+
+h2{
+    text-align: center;
+}
+
+
+.header {
+    background-color: #0C65A7 ;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.nav  {
+    background-color: #134C77;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.mainaside {
+    display: flex;
+    width: 100%;
+    flex-grow: 10;
+}
+
+.main {
+    background-color: #16A2C5;
+    flex-grow: 3;
+}
+
+.aside {
+    background-color: #5275AD;
+    flex-grow: 1;
+
+}
+
+.footer {
+    background-color: #7DCBE4;
+    width: 100%;
+    flex-grow: 1;
+}
