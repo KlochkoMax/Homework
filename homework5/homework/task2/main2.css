@@ -1,0 +1,61 @@
+.father {
+    background-color: #9b8f8f;
+    width: 400px;
+    height: 600px;
+    flex-wrap: wrap;
+}
+
+.header {
+    background-color: #4a4d4c;
+    height: 19% ;
+}
+
+.block {
+    column-gap: 2%;
+    align-items: center;
+    height: 57%;
+}
+
+.footer {
+    background-color: #4A4D4CFF ;
+    height: 19%;
+}
+
+.menu {
+    background-color: bisque;
+    margin-left: 5px;
+    height: 90%;
+}
+
+.post {
+    flex-direction: column;
+    margin-right: 5px;
+    height: 90%;
+    flex-grow: 2;
+}
+
+.post1 {
+    margin-bottom: 2px;
+	
+}
+
+.w100 {
+    width:100%;
+}
+
+.flex1 {
+   flex:1;
+}
+
+.postcolor {
+  background-color: white;
+}
+   
+.displayflex {
+  display: flex;
+
+}
+
+.margin1 {
+    margin: 1%;
+}

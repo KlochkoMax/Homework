@@ -1,0 +1,146 @@
+.father {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #c3dee3;
+     margin: 5px;
+     height: 900px;
+     width: 50%;
+}
+
+.header {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width:80%;
+     border: 2px solid #104848;
+     border-radius: 20px;
+     margin: 5px 0 10px;
+     height: 40%;
+}
+
+.header_top {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width:100%;
+     height:30%;	
+}
+
+.header_top1 {
+     width: 15%;
+     height: 5%;
+     background-color: #104848;
+     margin-right:5px;
+}
+
+.header_top2 {
+     width: 5%;
+     height: 5%;
+     background-color: #104848;
+}
+
+.header_main {
+     display: flex;
+     justify-content: space-around;
+     width:100%;
+     height:40%;
+}
+
+.header_main_content {
+     background-color: #104848;
+     height:100%;
+     width: 20%;
+     border-radius: 15px;
+}
+
+.header_bottom {
+     display: flex;
+     justify-content: space-around;
+     width:100%;
+     height:30%;
+
+}
+
+.bottom_content {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width:100%;
+     height:30%;
+}
+
+.bottom_content1 {
+     width: 50%;
+     height: 15%;
+     background-color: #104848;
+     margin-right:5px;
+}
+
+.bottom_content2 {
+     width: 25%;
+     height: 15%;
+     background-color: #104848;
+
+}
+
+.footer {
+     background-color: #104848;
+     display: flex;
+     justify-content: center;
+     width:100%;
+     height: 45%;
+}
+
+.footer_content {
+     display: flex;
+     flex-direction: column;
+     width:25%;
+}
+
+.footer_main {
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+
+}
+
+.footer_logo {
+     display: flex;
+     justify-content: center;
+     align-items: end;
+     height: 50%;
+}
+
+.footer_logo_content {
+     background-color: #DACDCDFF;
+     border-radius: 50%;
+     width: 30%;
+     height: 50%;
+}
+
+.footer_description {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     height: 50%;
+
+}
+
+.footer_descritpion1,.footer_descritpion2 {
+     background-color: #dacdcd;
+     height: 3%;
+     width: 35%;
+     margin: 25px 5px;
+}
+
+.footer_descritpion3,.footer_descritpion4,.footer_descritpion5{
+     background-color: white;
+     height: 5px;
+     width: 25%;
+     margin-right: 5px;
+     margin-bottom: 45%;
+}
+     
+	
+	

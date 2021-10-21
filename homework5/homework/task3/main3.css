@@ -1,0 +1,43 @@
+.father {
+    flex-direction: column;
+    background-color: #8a8484;
+    padding: 5px;
+    height: 450px;
+    width: 300px;
+}
+
+.father,.widgetsmiddleblock {
+    display:flex;
+}
+
+h2,h3 {
+    text-align: center;
+}
+
+
+.widgets1,.widgets,.contact {
+     background-color: aqua;
+
+}
+
+.widgets,.contact,.widgets1 {
+     margin: 5px;
+}
+
+
+.widgets {
+    flex-grow: 25;
+}
+
+.widgetsmiddleblock {
+    justify-content: space-around;
+    flex-grow: 15;
+
+}
+
+.contact {
+    flex-grow: 60;
+
+}
+
+

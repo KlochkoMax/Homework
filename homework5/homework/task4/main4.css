@@ -1,0 +1,46 @@
+.father {
+    flex-direction: column;
+    margin: 5px;
+    width: 450px;
+    height: 450px;
+}
+
+.father,.mainaside{
+    display: flex;
+
+}
+
+h2{
+    text-align: center;
+}
+
+.header,.nav,.aside,.footer {
+    flex-grow:1;
+}
+
+
+.header {
+    background-color: #0C65A7 ;
+}
+
+.nav  {
+    background-color: #134C77;
+}
+
+.mainaside {
+    flex-grow: 10;
+}
+
+.main {
+    background-color: #16A2C5;
+    flex-grow: 3;
+}
+
+.aside {
+    background-color: #5275AD;
+
+}
+
+.footer {
+    background-color: #7DCBE4;
+}
