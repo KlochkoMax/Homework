@@ -1,0 +1,13 @@
+@media screen and (max-width: 350px){
+
+  .header {
+      height: 500px;
+  }
+
+ .nav {
+     display: none;
+ }
+ .header-bottom {
+     flex-direction: column;
+ }
+}
