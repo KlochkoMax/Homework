@@ -38,8 +38,8 @@
     text-align: center;
 }
 
-.body {
-    width: 520px;
+body {
+    margin: 0px;
 }
 
 .header_top {
