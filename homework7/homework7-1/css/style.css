@@ -106,8 +106,8 @@ table {
   background-color: #FF7400;
   height: 47px;
   width: 157px;
-  padding: 14px 19px;
 }
+
 
 .header-main__title {
   text-align: center;
@@ -149,11 +149,6 @@ table {
   background: #C4C4C4;
 }
 
-.header-main__title p::before{
-}
-
-.header-main__title p::after {
-}
 
 .top-header__button2 {
   margin-top: 5px;
@@ -165,7 +160,6 @@ table {
 
 .header-bottom {
   display: flex;
-  justify-content: center;
   column-gap: 15%;
   padding: 0 15%;
   position: absolute;
@@ -175,11 +169,13 @@ table {
 .header-bottom_content {
   padding: 2%;
   background-color: #FFFFFF;
-  width: 30%;
+  width: 349px;
+  height: 328px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1)
 }
 
 .header-bottom_content img {
@@ -201,6 +197,7 @@ table {
 .header-bottom_content p span{
   color: #BC9060;
 }
+
 
 
 
