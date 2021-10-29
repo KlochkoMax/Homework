@@ -1,0 +1,157 @@
+
+
+.header {
+    width: 1440px;
+    height: 800px;
+    background: url("../image/bg.png") no-repeat center/cover;
+}
+
+.header-top {
+    align-items: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 165px;
+    padding-top: 50px;
+
+}
+
+.header-nav img {
+    width: 20px;
+}
+
+.header-nav {
+    margin-left: 268px;
+}
+
+.contacts {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.block1 {
+    width: 154px;
+    height: 38px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.contact-block {
+    border-left: 1px solid #FFFFFF;
+    margin-left: 40px;
+}
+
+.btn {
+    width: 157px;
+    height: 47px;
+    background: #FF7400;
+    font-size: 14px;
+    line-height: 19px;
+    border: none;
+    border-radius: 0px;
+    margin-left: 55px;
+}
+
+.header-main{
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    color: #D67E35;
+}
+
+.header-main h2{
+    font-size: 50px;
+    line-height: 57px;
+    margin-top: 204px;
+    margin-left: 199px;
+
+}
+
+.header-main h1 {
+    font-size: 80px;
+    line-height: 92px;
+    margin-left: 175px;
+}
+
+.header-main p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: 340px;
+}
+
+.header-main p::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 61px;
+    height: 2px;
+    left: 271px;
+    top: 525px;
+    background: #C4C4C4;
+}
+
+.header-main p::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 61px;
+    height: 2px;
+    left: 515px;
+    top: 525px;
+    background: #C4C4C4;
+}
+
+.header-main button {
+    margin-left: 356px;
+}
+
+.container {
+    position: absolute;
+    bottom: -12%;
+    padding: 0 5%;
+    margin-left: 60px;
+}
+
+.card {
+    width: 349px;
+    height: 328px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-img-top {
+    padding: 35px 135px 0px 125px;
+}
+
+span {
+    color: #BC9060;
+}
+
+.col {
+    text-align: center;
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    width: 328px;
+    height: 349px;
+}
+
+.card-title {
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+
+.card-text {
+    font-size: 26px;
+    line-height: 30px;
+    color: #656363;
+}
+
