@@ -491,15 +491,16 @@
     }
 
     .footer {
-        height: 1072px;
+        height: 1272px;
         padding: 0 15px;
         flex-direction: column;
+
     }
 
     .footer-block2 {
+        height: 300px;
         flex-direction: column;
         position: relative;
-        display: block;
         top: 0;
         left: -15px;
         padding-left: 15px;
@@ -514,6 +515,15 @@
         margin:  10px 100% 10px 0;
     }
 
+    .scroll-mobile {
+        position: fixed;
+        bottom: 0;
+        width: 320px;
+        display: flex!important;
+        margin-top: 150px;
+        justify-content: space-around;
+        background-color: #FFFFFF;
+    }
 
 }
 

@@ -21,9 +21,6 @@ body {
 }
 
 .top-header__text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
@@ -31,9 +28,6 @@ body {
 }
 
 .top-dropdown {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 14px;
     color: #FFFFFF!important;
@@ -47,13 +41,9 @@ body {
     align-items: center;
 }
 
-.header-search-button {}
-
 .nav-header {
     display: flex;
     justify-content: space-between;
-    font-family: Roboto;
-    font-style: normal;
     font-size: 14px;
     line-height: 16px;
 
@@ -97,8 +87,6 @@ a,a:hover {
 
 
 .main-top__block2 p {
-    font-family: Roboto;
-    font-style: normal;
     font-size: 14px;
     line-height: 20px;
     text-align: right;
@@ -112,9 +100,6 @@ a,a:hover {
 }
 
 .main-top__block3 p {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: #0F2438;
